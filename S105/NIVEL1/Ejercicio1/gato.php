@@ -4,7 +4,7 @@ class Gato extends Animal
 {
     function makeSound()
     {
-        echo $this->nombre . " hace Miau, Miau!";
+        echo $this->nombre . " hace Miau, Miau!" . "\n";
     }
 }
 
