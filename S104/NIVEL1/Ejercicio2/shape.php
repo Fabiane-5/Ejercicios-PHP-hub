@@ -1,6 +1,6 @@
 <?php
 
-class Shape
+abstract class Shape
 {
     public float $ancho;
     public float $alto;
