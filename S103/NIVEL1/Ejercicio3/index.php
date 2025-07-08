@@ -1,7 +1,7 @@
 <?php
 
-$arrayPalabras = ["hola", "comida", "puertO"];
-$caracter = 'o';
+$arrayPalabras = ["hola", "ahora", "Honduras"];
+$caracter = 'h';
 $encontro = encontrarCaracter($arrayPalabras, $caracter);
 
 if ($encontro) {
@@ -15,10 +15,10 @@ function encontrarCaracter(array $arrayPalabras, string $caracter): bool
 {
     for ($i = 0; $i < count($arrayPalabras); $i++) {
         $posicion = stripos($arrayPalabras[$i], $caracter[0]);
-        if ($posicion == null) {
+        // echo $posicion;
+        if ($posicion === false) {
             return false;
         }
     }
     return true;
 }
-?>
