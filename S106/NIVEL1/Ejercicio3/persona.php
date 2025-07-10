@@ -25,6 +25,6 @@ class Persona
 
     public function __toString()
     {
-        return "Su nombre es: " . $this->nombre . "\n" . "Su apellido es: " . $this->apellido . "\n" . "Su edad es: " .  $this->edad;
+        return "Su nombre es: " . $this->nombre . "\n" . "Su apellido es: " . $this->apellido . "\n" . "Se edad es: " .  $this->edad;
     }
 }
