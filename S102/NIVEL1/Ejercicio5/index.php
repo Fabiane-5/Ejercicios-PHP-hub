@@ -1,6 +1,6 @@
 <?php
 
-grado(101);
+grado(10);
 
 function grado(int|float $porcentaje)
 {
