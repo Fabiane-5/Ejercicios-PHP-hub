@@ -16,13 +16,13 @@ class ComposerStaticInit7ca50f865408fa78a0c175499e3ef7bc
         array (
             'PhpParser\\' => 10,
         ),
-        'G' => 
-        array (
-            'Garci\\Nivel1\\' => 13,
-        ),
         'D' => 
         array (
             'DeepCopy\\' => 9,
+        ),
+        'A' => 
+        array (
+            'App\\' => 4,
         ),
     );
 
@@ -31,13 +31,13 @@ class ComposerStaticInit7ca50f865408fa78a0c175499e3ef7bc
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
-        'Garci\\Nivel1\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 

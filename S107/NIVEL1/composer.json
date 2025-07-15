@@ -1,10 +1,10 @@
 {
     "name": "garci/nivel1",
     "autoload": {
-        "psr-4": {
-            "Garci\\Nivel1\\": "src/"
-        }
-    },
+    "psr-4": {
+        "App\\": "src/"
+    }
+},
     "authors": [
         {
             "name": "Fabian",
@@ -15,3 +15,4 @@
         "phpunit/phpunit": "^11.5"
     }
 }
+
